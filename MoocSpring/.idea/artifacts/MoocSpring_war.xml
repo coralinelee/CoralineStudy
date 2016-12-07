@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MoocSpring:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="MoocSpring-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="MoocSpring:war exploded" />
+    </root>
+  </artifact>
+</component>
