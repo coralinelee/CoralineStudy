@@ -1,7 +1,7 @@
-package common.com.imooc.test.ioc.interfaces;
+package com.imooc.test.ioc.interfaces;
 
 import com.imooc.ioc.interfaces.OneInterface;
-import common.com.imooc.test.base.UnitTestBase;
+import com.imooc.test.base.UnitTestBase;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.BlockJUnit4ClassRunner;

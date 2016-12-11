@@ -1,6 +1,7 @@
-package common.com.imooc.test.bean;
+package com.imooc.test.bean;
 
-import common.com.imooc.test.base.UnitTestBase;
+import com.imooc.test.base.UnitTestBase;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.BlockJUnit4ClassRunner;
@@ -18,5 +19,12 @@ public class TestBeanLifeCycle extends UnitTestBase{
     @Test
     public void test(){
         super.getBean("beanLifeCycle");
+    }
+
+
+
+    @Test
+    public void suibian(){
+        Assert.assertEquals(1,1);
     }
 }

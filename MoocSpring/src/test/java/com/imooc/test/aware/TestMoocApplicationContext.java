@@ -1,6 +1,6 @@
-package common.com.imooc.test.aware;
+package com.imooc.test.aware;
 
-import common.com.imooc.test.base.UnitTestBase;
+import com.imooc.test.base.UnitTestBase;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.BlockJUnit4ClassRunner;
@@ -21,7 +21,7 @@ public class TestMoocApplicationContext extends UnitTestBase{
 //    }
 
     @Test
-    public void testMoocApplicationContext(){
+    public void testMoocBeanName(){
         System.out.println("moocBeanName" + super.getBean("moocBeanName").hashCode());
     }
 }

@@ -11,7 +11,7 @@ public class MoocApplicationContext implements ApplicationContextAware{
 
     private ApplicationContext applicationContext;
 
-    @Override
+
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         //this.applicationContext = applicationContext;
         System.out.println("moocApplicationContext" + applicationContext.getBean("moocApplicationContext").hashCode());

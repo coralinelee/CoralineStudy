@@ -1,7 +1,7 @@
-package common.com.imooc.test.bean;
+package com.imooc.test.bean;
 
 import com.imooc.bean.BeanScope;
-import common.com.imooc.test.base.UnitTestBase;
+import com.imooc.test.base.UnitTestBase;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.BlockJUnit4ClassRunner;

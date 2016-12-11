@@ -1,4 +1,4 @@
-package common.com.imooc.test.base;
+package com.imooc.test.base;
 
 import org.junit.After;
 import org.junit.Before;

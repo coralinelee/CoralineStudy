@@ -1,7 +1,7 @@
-package common.com.imooc.test.ioc.injection;
+package com.imooc.test.ioc.injection;
 
 import com.imooc.ioc.injection.service.InjectionService;
-import common.com.imooc.test.base.UnitTestBase;
+import com.imooc.test.base.UnitTestBase;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.BlockJUnit4ClassRunner;
